@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:music/model/audio_file_model.dart';
-import 'package:music/res/app_svg.dart';
-import 'package:music/view/common_widget/app_bar.dart';
-import 'package:music/view/player/components/song_bottom_contianer.dart';
-import 'package:music/view/player/components/song_controllers.dart';
-import 'package:music/view/player/components/song_title.dart';
+import 'package:amp/model/audio_file_model.dart';
+import 'package:amp/res/app_svg.dart';
+import 'package:amp/view/common_widget/app_bar.dart';
+import 'package:amp/view/player/components/song_bottom_contianer.dart';
+import 'package:amp/view/player/components/song_controllers.dart';
+import 'package:amp/view/player/components/song_title.dart';
 
 import 'components/song_circle_container.dart';
 class Player extends StatelessWidget {

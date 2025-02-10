@@ -48,8 +48,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:music/res/app_colors.dart';
-import 'package:music/res/app_images.dart';
+import 'package:amp/res/app_colors.dart';
+import 'package:amp/res/app_images.dart';
 import 'package:permission_handler/permission_handler.dart';
 class Utils{
   static go({required BuildContext context,required dynamic screen,bool replace=false}){

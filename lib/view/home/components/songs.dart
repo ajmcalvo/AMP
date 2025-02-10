@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:layout_pro/responsive_layout.dart';
-import 'package:music/bloc/home_bloc/home_bloc.dart';
-import 'package:music/bloc/home_bloc/home_state.dart';
-import 'package:music/bloc/player_bloc/player_bloc.dart';
-import 'package:music/utils/utils.dart';
-import 'package:music/view/all_music/all_music.dart';
-import 'package:music/view/home/components/song_widget.dart';
-import 'package:music/view/player/player.dart';
+import 'package:amp/bloc/home_bloc/home_bloc.dart';
+import 'package:amp/bloc/home_bloc/home_state.dart';
+import 'package:amp/bloc/player_bloc/player_bloc.dart';
+import 'package:amp/utils/utils.dart';
+import 'package:amp/view/all_music/all_music.dart';
+import 'package:amp/view/home/components/song_widget.dart';
+import 'package:amp/view/player/player.dart';
 
 import '../../../bloc/album_bloc/album_bloc.dart';
 import '../../../bloc/album_bloc/album_event.dart';

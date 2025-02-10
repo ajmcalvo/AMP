@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:music/bloc/album_bloc/album_event.dart';
-import 'package:music/bloc/album_bloc/album_state.dart';
-import 'package:music/bloc/home_bloc/home_state.dart';
-import 'package:music/view_model/services/audio_query_services.dart';
+import 'package:amp/bloc/album_bloc/album_event.dart';
+import 'package:amp/bloc/album_bloc/album_state.dart';
+import 'package:amp/bloc/home_bloc/home_state.dart';
+import 'package:amp/view_model/services/audio_query_services.dart';
 
 class AlbumBloc extends Bloc<AlbumEvent, AlbumState> {
   final PageController pageController;

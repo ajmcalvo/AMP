@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:music/utils/utils.dart';
+import 'package:amp/utils/utils.dart';
 
 import '../../res/app_svg.dart';
 class CustomAppBar extends StatelessWidget {
